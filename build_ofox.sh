@@ -2,6 +2,8 @@
 
 # Exports
 export ALLOW_MISSING_DEPENDENCIES=true
+export OF_STATUS_INDENT_LEFT="48"
+export OF_STATUS_INDENT_RIGHT="48"
 export TARGET_DEVICE_ALT="a50, a50dd"
 export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/13520000.ufs/by-name/recovery"
 export FOX_REPLACE_BUSYBOX_PS="1"
@@ -25,7 +27,7 @@ export FOX_R11="1"
 export USE_CCACHE="1"
 export OF_FLASHLIGHT_ENABLE="0"
 export OF_SCREEN_H="2340"
-export FOX_BUILD_TYPE="Stable"
+export FOX_BUILD_TYPE="Beta"
 export FOX_ADVANCED_SECURITY="1"
 export LZMA_RAMDISK_TARGETS="recovery"
 
