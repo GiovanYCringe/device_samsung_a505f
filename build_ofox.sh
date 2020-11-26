@@ -2,6 +2,7 @@
 
 # Exports
 export ALLOW_MISSING_DEPENDENCIES=true
+export TARGET_DEVICE_ALT="a50, a50dd"
 export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/13520000.ufs/by-name/recovery"
 export FOX_REPLACE_BUSYBOX_PS="1"
 export FOX_USE_BASH_SHELL="1"
