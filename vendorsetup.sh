@@ -14,18 +14,4 @@
 # limitations under the License.
 #
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, build/target/product/embedded.mk)
-
-# Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := a50dd
-PRODUCT_NAME := omni_a50dd
-PRODUCT_BRAND := samsung
-PRODUCT_MODEL := Samsung Galaxy A50
-PRODUCT_MANUFACTURER := samsung
-PRODUCT_RELEASE_NAME := Samsung Galaxy A50
-
-# Copy
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
- 
+add_lunch_combo omni_a50dd-eng
