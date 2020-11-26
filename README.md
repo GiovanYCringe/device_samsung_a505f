@@ -18,3 +18,6 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 # Build
 $ source build/envsetup.sh; lunch omni_a50dd-eng; mka recoveryimage
 ```
+
+## Credits
+* Astrako: For build_ofox.sh file
