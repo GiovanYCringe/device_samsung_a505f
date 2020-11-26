@@ -4,19 +4,20 @@
 
 ```bash
 # Create dirs
-$ mkdir pb; cd pb
+$ mkdir fox; cd fox
 
 # Init repo
-$ repo init --depth=1 -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0
+$ repo init --depth=1 -u https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0
 
 # Clone a50dd repo
-$ git clone https://github.com/yukosky/android_device_samsung_a50dd -b pbrp-10.0 device/samsung/a50dd
+$ git clone https://github.com/yukosky/android_device_samsung_a50dd -b fox-9.0 device/samsung/a50dd
+$ mv device/samsung/a50dd/build_ofox.sh . && chmod +x build_ofox.sh
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ source build/envsetup.sh; lunch omni_a50dd-eng; mka recoveryimage
+$ bash build_ofox.sh
 ```
 
 ## Credits
