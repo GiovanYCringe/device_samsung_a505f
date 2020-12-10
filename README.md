@@ -1,4 +1,4 @@
-# Pitch Black Recovery Project for the Samsung Galaxy A50
+# Orange Fox Project for the Samsung Galaxy A50
 
 ### How to build ###
 
