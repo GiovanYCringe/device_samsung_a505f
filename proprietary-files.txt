@@ -28,7 +28,6 @@ vendor/lib64/libwrappergps.so
 ### RIL
 vendor/bin/hw/rild
 vendor/bin/cbd
-vendor/bin/secril_config_svc
 vendor/etc/init/init.baseband.rc
 vendor/etc/plmn_delta.bin
 vendor/etc/plmn_delta_attaio.bin
