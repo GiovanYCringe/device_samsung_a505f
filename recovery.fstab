@@ -9,6 +9,7 @@
 /product_image      emmc    /dev/block/platform/13520000.ufs/by-name/product       flags=display="Product (OMC) Image";backup=1;flashimg=1
 /up_param           emmc    /dev/block/platform/13520000.ufs/by-name/up_param      flags=display="Splash Image";backup=1;flashimg=1
 /dtbo               emmc    /dev/block/platform/13520000.ufs/by-name/dtbo          flags=display="DTBO Image";backup=1;flashimg=1
+/dtb                emmc    /dev/block/platform/13520000.ufs/by-name/dtb           flags=display="DTB Image";backup=1;flashimg=1
 
 # System and Vendor (and Product) Points
 /system_root        ext4    /dev/block/platform/13520000.ufs/by-name/system        flags=display="System";backup=1;wipeingui
