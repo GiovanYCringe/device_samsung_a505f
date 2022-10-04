@@ -1,3 +1,5 @@
-# TWRP Device Tree for Samsung Galaxy Tab S6 Lite WiFi
+# TWRP Device Tree for Samsung Galaxy A50
 
-Kernel source: https://github.com/gta4xl/android_kernel_samsung_gta4xl/tree/android-10.0
+How to compile ?
+
+. build/envsetup.sh; lunch twrp_a50-eng; mka recoveryimage -j64
