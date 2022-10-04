@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_gta4xlwifi.mk
+    $(LOCAL_DIR)/twrp_a50.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_gta4xlwifi-eng
+    twrp_a50-eng
