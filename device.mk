@@ -34,3 +34,8 @@ PRODUCT_COPY_FILES += \
 # RIL
 PRODUCT_PACKAGES += \
     secril_config_svc
+
+# Init.rc
+PRODUCT_PACKAGES += \
+    init.gps.rc \
+    fingerprint_common.rc

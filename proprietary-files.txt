@@ -15,6 +15,9 @@ vendor/etc/wifi/mx140_bt.hcf
 vendor/lib/libexynoscamera3.so
 vendor/lib64/libexynoscamera3.so
 
+# Fingeprint
+vendor/etc/init/fingerprint_common.rc
+
 ## GPS
 vendor/bin/hw/gps.sh
 -vendor/bin/hw/gpsd
