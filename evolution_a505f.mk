@@ -21,24 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 ## Inherit from a505f device
 $(call inherit-product, device/samsung/a505f/device.mk)
 
-## Boot Animation
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BOOTANIMATION_HALF_RES := true
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080
-
-## Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-
-## Inherit some common AOSP stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-## Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+## Inherit some common evolution stuff
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a505f
-PRODUCT_NAME := aosp_a505f
+PRODUCT_NAME := evolution_a505f
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A505F
 PRODUCT_MANUFACTURER := samsung
