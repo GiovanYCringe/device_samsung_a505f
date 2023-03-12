@@ -1,11 +1,6 @@
 /boot				emmc	/dev/block/platform/13520000.ufs/by-name/boot		flags=backup=1;flashimg=1
 /recovery			emmc    /dev/block/platform/13520000.ufs/by-name/recovery	flags=backup=1;flashimg=1
-
 /efs				ext4	/dev/block/platform/13520000.ufs/by-name/efs		flags=display="EFS";backupname="EFS";backup=1
-/metadata			ext4	/dev/block/platform/13520000.ufs/by-name/metadata	flags=display="Metadata";backupname="Metadata";backup=1
-/optics				ext4	/dev/block/platform/13520000.ufs/by-name/optics		flags=display="Optics";backupname="Optics";backup=1
-/prism				ext4	/dev/block/platform/13520000.ufs/by-name/prism		flags=display="Prism";backupname="Prism";backup=1
-/sec_efs			ext4	/dev/block/platform/13520000.ufs/by-name/sec_efs	flags=display="SEC EFS";backupname="SEC EFS";backup=1
 
 /external_sd			auto	/dev/block/mmcblk0p1 /dev/block/mmcblk0			flags=display="External SD";wipeingui;removable
 /usb-otg			auto	/dev/block/sdf1 /dev/block/sdf				flags=display="USB OTG";wipeingui;removable
