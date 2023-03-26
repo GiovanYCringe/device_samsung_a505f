@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_a505f.mk
+    $(LOCAL_DIR)/lineage_a505f.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_a505f-eng \
-    evolution_a505f-user \
-    evolution_a505f-userdebug
+    lineage_a505f-eng \
+    lineage_a505f-user \
+    lineage_a505f-userdebug
