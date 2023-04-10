@@ -2,7 +2,6 @@
 
 ## Audio
 vendor/etc/floating_feature.xml
-vendor/lib/hw/audio.primary.exynos9610.so
 vendor/lib/soundfx/libswdap.so
 
 ## Audio Firmware
