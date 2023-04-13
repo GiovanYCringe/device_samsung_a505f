@@ -37,5 +37,4 @@ PRODUCT_PACKAGES += \
 
 # Init.rc
 PRODUCT_PACKAGES += \
-    init.gps.rc \
     fingerprint_common.rc

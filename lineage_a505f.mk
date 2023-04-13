@@ -41,7 +41,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="a50dd-user 11 RP1A.200720.012 A505FDDS9CUK1 release-keys"
 
 BUILD_FINGERPRINT := samsung/a50dd/a50:11/RP1A.200720.012/A505FDDS9CUK1:user/release-keys
-
-# Property overrides
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.treble.enabled=true
