@@ -23,30 +23,7 @@ vendor/etc/init/init.gps.rc
 -vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 -vendor/lib64/libwrappergps.so
 
-## RIL
-vendor/bin/hw/rild
-vendor/bin/cbd
-vendor/etc/init/init.baseband.rc
-vendor/etc/init/init.vendor.rilchip.rc
-vendor/etc/init/init.vendor.rilcommon.rc
-vendor/etc/plmn_delta.bin
-vendor/etc/plmn_delta_attaio.bin
-vendor/etc/plmn_delta_hktw.bin
-vendor/etc/plmn_delta_usagsm.bin
-vendor/etc/plmn_se13.bin
-vendor/lib/libril.so:vendor/lib/libril-samsung.so
-vendor/lib/libsemnativecarrierfeature.so
-vendor/lib64/libengmode_client.so
-vendor/lib64/libril.so:vendor/lib64/libril-samsung.so
-vendor/lib64/libsec-ril.so
-vendor/lib64/libsemnativecarrierfeature.so
-vendor/lib64/libvkmanager_vendor.so
--vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
--vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
--vendor/lib64/vendor.samsung.hardware.radio@2.0.so
--vendor/lib64/vendor.samsung.hardware.radio@2.1.so
-
-# rilx2 - from gta4xlwifi
+# ralx2 - from gta4xlwifi
 -vendor/lib64/vendor.samsung.hardware.radio@2.2.so|99cd4ef1a024fe47ccaabe5d41311ea293f06cb2
 -vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so|dda313a967a6397cdda9a11eed9006b5c4574171
 
