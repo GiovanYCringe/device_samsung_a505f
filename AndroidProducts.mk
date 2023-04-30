@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_a50dd.mk
+     $(LOCAL_DIR)/twrp_a505f.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_a505f-eng \
+    twrp_a505f-user \
+    twrp_a505f-userdebug
