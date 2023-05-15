@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The aospOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a505f.mk
+    $(LOCAL_DIR)/aosp_a505f.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a505f-eng \
-    lineage_a505f-user \
-    lineage_a505f-userdebug
+    aosp_a505f-eng \
+    aosp_a505f-user \
+    aosp_a505f-userdebug
