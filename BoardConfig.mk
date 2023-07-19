@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a505f
+DEVICE_PATH := device/samsung/m30s
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
@@ -34,22 +34,21 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image
-BOARD_KERNEL_CMDLINE := androidboot.hardware=exynos9610
+BOARD_KERNEL_CMDLINE := androidboot.hardware=exynos9611
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --header_version 2 --board SRPSG30B004RU
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt/dtb
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_IMAGE_NAME := Image
 
 # Platform
 BOARD_VENDOR := samsung
-TARGET_SOC := universal9610
+TARGET_SOC := universal9611
 TARGET_BOARD_PLATFORM := exynos5
 TARGET_BOARD_PLATFORM_GPU := mali-g72
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := a505f,
+TARGET_OTA_ASSERT_DEVICE := m30s,m30sdd
 
 # File systems: File System
 BOARD_HAS_LARGE_FILESYSTEM := true

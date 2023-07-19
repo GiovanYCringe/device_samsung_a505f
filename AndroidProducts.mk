@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_a505f.mk
+     $(LOCAL_DIR)/twrp_m30s.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_a505f-eng \
-    twrp_a505f-user \
-    twrp_a505f-userdebug
+    twrp_m30s-eng \
+    twrp_m30s-user \
+    twrp_m30s-userdebug
